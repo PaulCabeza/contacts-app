@@ -1,24 +1,7 @@
-# README
+# RoR Contacts App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello, my name is Paul, and this is my first Rails app.
 
-Things you may want to cover:
+A Contacts-App where you can add, edit, show and delete contacts.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks for reading and visiting my repo.
