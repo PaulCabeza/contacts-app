@@ -1,6 +1,10 @@
+<div class="container">
+<br>
 <h1>Editing Contact</h1>
 
 <%= render 'form', contact: @contact %>
 
-<%= link_to 'Show', @contact %> |
-<%= link_to 'Back', contacts_path %>
+<%= link_to 'Show', @contact, class:"btn btn-secondary" %> |
+<%= link_to 'Back', contacts_path, class:"btn btn-dark" %>
+</div>
+

@@ -1,16 +1,11 @@
+<div class="container">
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>First name:</strong>
-  <%= @contact.first_name %>
-</p>
-
-<p>
-  <strong>Last name:</strong>
-  <%= @contact.last_name %>
-</p>
-
-<p>
+<div class="bg-light p-5 rounded-lg m-3">
+  <h1 class="display-4"><%= @contact.first_name %> <%= @contact.last_name %> </h1>
+  <p class="lead">
+  <p>
   <strong>Email:</strong>
   <%= @contact.email %>
 </p>
@@ -24,6 +19,11 @@
   <strong>Twitter:</strong>
   <%= @contact.twitter %>
 </p>
+  </p>
+  <hr class="my-4">
+  <p></p>
+  <%= link_to 'Edit', edit_contact_path(@contact), class:"btn btn-primary" %>
+  <%= link_to 'Back', contacts_path, class:"btn btn-secondary" %>
+</div>
 
-<%= link_to 'Edit', edit_contact_path(@contact) %> |
-<%= link_to 'Back', contacts_path %>
+</div>
